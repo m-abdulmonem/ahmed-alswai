@@ -1,0 +1,23 @@
+body{
+    direction: rtl !important;
+}
+.lang{
+    left: 0;
+}
+.header .menu ul{
+    text-align: left;
+}
+.sections .section-top .section-title::after {
+    right: 0;
+}
+
+
+#session-group{
+    float: left;
+}
+
+.alert-danger {
+    background-color: #d9534f;
+    color: #fff;
+    border-right: 4px solid #960f27;
+}

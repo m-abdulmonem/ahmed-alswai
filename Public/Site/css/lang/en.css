@@ -1,0 +1,24 @@
+body{
+    direction: ltr !important;
+}
+.lang{
+    right: 0;
+}
+.navbar .contact-list{
+    text-align: center;
+}
+.header .menu ul{
+    text-align: right;
+}
+.sections .section-top .section-title::after {
+    left: 0;
+}
+
+#session-group{
+    float: right;
+}
+.alert-danger {
+    background-color: #d9534f;
+    color: #fff;
+    border-left: 4px solid #960f27;
+}

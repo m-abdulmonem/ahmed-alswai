@@ -1,0 +1,248 @@
+@font-face{font-family:'FontAwesome';src:url('../fonts');}
+@font-face{font-family:'Cairo';src:url('../../site/fonts/Cairo-Regular.ttf');}
+body{
+    background: #ecf0f5;
+    font-family: Cairo, serif !important;
+}
+/* StartHeader File */
+
+.user-menu{
+    width: 166px;
+}
+
+/* End Header FIle */
+
+.btn-upload {
+    display: block;
+    width: 100%;
+}
+.width-100{
+    width: 100%;
+}
+.gallery{
+    width: 150px;
+    height:150px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+}
+
+/* Start Login Style Scope */
+.MA-Login-Body{
+    background: #d2d6de;
+}
+.MA-login-box{
+    text-align: center;
+    background: #fff;
+    margin: 137px auto;
+    width: 350px;
+    height:350px;
+    border-radius: 6px;
+    padding: 13px;
+}
+.MA-login-logo > a{
+    font-size: 25px;
+    font-weight: 700;
+    color: #444;
+    text-align: center;
+    text-decoration: none;
+}
+.MA-login-logo > a:hover{
+    text-decoration: none;
+}
+.MA-login-box-body{
+    padding-top: 44px;
+}
+.has-feedback{
+    position: relative;
+}
+.form-control {
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border-color: #d2d6de;
+}
+.form-control:focus {
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+.form-control-feedback {
+    color: #777;
+    position: absolute;
+    top: 0;
+    right: 9px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none;
+}
+.checkbox{
+    text-align: left;
+}
+/* End Login Style Scope */
+
+
+
+/* Start Users Page Scope  */
+/* Show All Users Page */
+.MA-User-Box-Control{
+    padding: 10px;
+}
+.MA-Img > img{
+    width: 35px;
+    height: 35px;
+}
+/* Add User Page */
+.MA-panel-heading {
+    padding-right: 15px;
+    padding-left: 15px;
+    background: #f4f8fb;
+    height: 50px;
+    padding-top: 4px;
+}
+/* End Users Page Scope  */
+
+.img img{
+    width: 280px;
+    height: auto;
+}
+.MA-panel-heading {
+    background: #f4f8fb;
+    padding: 10px;
+    min-height: 50px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    line-height: 50px;
+}
+.MA-panel-heading h4{
+    line-height: 11px;
+}
+.list-group-item{
+    height: auto;
+    padding: 20px;
+}
+.file{
+    width: 100%;
+    height: 43px;
+    position: relative;
+    z-index: 1;
+    background: #EEF;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.file span{
+    text-align: center;
+    padding: 9px 0 0 5px;
+    display: block;
+    font-family: Cairo, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.file span:before{
+    content: "\f093";
+    font-family: FontAwesome, serif;
+    padding-right:5px ;
+    padding-left: 5px;
+}
+.file input[type="file"]{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+}
+.up{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.form-group .col-md-8{
+    width: 100%;
+}
+.form-group .form-control{
+    display: block;
+    margin-bottom: 19px;
+    font-weight: bold;
+}
+td{
+    line-height: inherit;
+}
+.img-index{
+    width: 35px;
+    height: 35px;
+}
+.img-demo img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 18px;
+    display: inline-flex;
+}
+.box-title{
+    margin-bottom: 10px;
+}
+.card-box{
+    width: 420px;
+    margin: 20vh auto;
+}
+.card-box .panel-heading h3{
+    font-family: Cairo, serif;
+}
+.bootstrap-tagsinput{
+    width: 100%;
+}
+.bootstrap-tagsinput input{
+    width: 100%;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.MA-Right{
+    float: right!important;
+}
+@media (max-width: 438px) {
+    .MA-Customise{
+        padding: 20px;
+    }
+    .card-box{
+        width: 100%;
+    }
+}
+/* Start My FarmWork */
+.MA{
+
+}
+.MA-Error{
+    background: #F44336;
+    color: #fff;
+    border:2px solid transparent;
+}
+.status-option,.visible-option,.publish-option,.none{
+    display: none;
+    transition: 0.5s;
+}
+.display{
+    display: block !important;
+}
+clicked{
+    cursor: pointer;
+    color: #34d3eb;
+    text-decoration: underline;
+}
+clicked:active,clicked:hover,clicked:focus,clicked:visited{
+
+}
+b{
+    font-weight: bold;
+}
+input[type=url]{
+    direction: ltr;
+}
+
+/* Start My FarmWork */

@@ -1,0 +1,8 @@
+{
+
+    "require": {
+        "phpmailer/phpmailer": "^5.2",
+        "facebook/graph-sdk": "^5.5",
+        "cboden/ratchet": "^0.3.6"
+    }
+}
