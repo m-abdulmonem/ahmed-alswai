@@ -239,6 +239,7 @@ function pre($data){
     echo "<pre>";
         echo print_r($data);
     echo "</pre>";
+    exit();
 }
 
 if (! function_exists("getTitle")){

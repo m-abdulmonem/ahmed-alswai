@@ -76,5 +76,5 @@ function AR(string $phrase){
 
         );
 
-    return $language[$phrase];
+    return array_key_exists($phrase,$language) ?  $language[$phrase] : $phrase;
 }

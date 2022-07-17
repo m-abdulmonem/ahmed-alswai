@@ -20,14 +20,14 @@ class Lang
         $phrase = strtoupper($phrase);
         if (!session::has("MR_DEVELOPER") or !session::has("MR_DEVELOPER_ADMIN")) {
             if (settings()['lang'] == "ar")
-                return self::AR($phrase);
+                return (new Lang)->AR($phrase);
             else
-                return self::EN($phrase);
+                return (new Lang)->EN($phrase);
         } else{
-            if (Users::where("UserId " , session::get("MR_DEVELOPER") or session::get("MR_DEVELOPER_ADMIN"))['lang'] == "ar")
-                return self::AR($phrase);
+            if (Users::where("UserId" , session::get("MR_DEVELOPER") or session::get("MR_DEVELOPER_ADMIN"))['lang'] == "ar")
+                return (new Lang)->AR($phrase);
             else
-                return self::EN($phrase);
+                return (new Lang)->EN($phrase);
         }
     }
 

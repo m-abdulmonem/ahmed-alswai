@@ -28,6 +28,7 @@ require_once APP_PATH . DS . 'Vendor' . DS . 'AutoLoad.php';
  *
  */
 require_once APP_PATH . DS . 'Vendor' . DS . 'Language' . DS . 'Lang.php';
+
 /**
  * Create New object From Router Class
  */

@@ -47,5 +47,5 @@ function EN(string $phrase){
         'LOGIN'                        => 'Login',
         'REGISTER_INVALID_MAIL'        => 'Please Enter A Valid Email',
     );
-    return $language[$phrase];
+    return array_key_exists($phrase,$language) ?  $language[$phrase] : $phrase;
 }

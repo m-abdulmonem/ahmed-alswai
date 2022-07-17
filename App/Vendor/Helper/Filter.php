@@ -13,15 +13,13 @@ class Filter
 
     /**
      * Sanitize String
-     * @param string $data
-     * @return mixed
+     * @param $string
+     * @return string
      */
-    public static function String($data)
+    public static function String($string): string
     {
-        if (self::isString($data))
-            return filter_var($data, FILTER_SANITIZE_STRING);
-        else
-            return false;
+        $str = preg_replace('/\x00|<[^>]*>?/', '', $string);
+        return (string) str_replace(["'", '"'], ['&#39;', '&#34;'], $str);
     }
 
     /**
